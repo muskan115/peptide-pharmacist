@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peptide Pharmacist — Research Grade Peptides</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="discount-bar">🔬 Use code RESEARCH25 at checkout for 25% off — Limited time offer!</div>
+
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo-glyph">💊</div>
+      <div class="brand-text">
+        <span class="brand-top">PEPTIDE</span>
+        <span class="brand-bottom">PHARMACIST</span>
+      </div>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#testing">Testing</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#rewards">Rewards</a>
+      <a href="#support">Support</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#" aria-label="Search">🔍</a>
+      <a href="#" aria-label="Account">👤</a>
+      <a href="#" class="cart-trigger" aria-label="Cart">
+        🛒<span class="cart-badge" id="cartBadge">0</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="ellipse ellipse-left"></div>
+    <div class="ellipse ellipse-right"></div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="eyebrow"><span class="eyebrow-line"></span>Research • Performance • Results</div>
+        <h1>NEXT LEVEL PEPTIDES</h1>
+        <p class="hero-desc">Premium quality peptides for research purposes. Trusted by laboratories worldwide, backed by third-party testing reports.</p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn-primary">Shop Peptides</a>
+          <a href="#testing" class="btn-secondary">Learn More</a>
+        </div>
+        <div class="trust-row">TRUST, TRANSPARENCY, RESULTS</div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-image-placeholder">🧪</div>
+        <div class="new-arrivals-card">
+          <div class="card-top-row"><span class="new-dot"></span>NEW ARRIVALS</div>
+          <p class="card-title">Latest Peptides</p>
+          <p class="card-sub">3 new products added</p>
+        </div>
+        <div class="lab-results-card">
+          <div class="check-icon">✓</div>
+          <div>
+            <p class="card-title">99.2% Purity</p>
+            <p class="card-sub">Independent COA verified</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-badges-bar">
+    <div class="trust-badge"><div class="icon-wrap">🛡️</div><div><p class="badge-title">PREMIUM QUALITY</p><p class="badge-sub">Purity verified</p></div></div>
+    <div class="divider"></div>
+    <div class="trust-badge"><div class="icon-wrap">📄</div><div><p class="badge-title">LAB TESTED</p><p class="badge-sub">COA with every batch</p></div></div>
+    <div class="divider"></div>
+    <div class="trust-badge"><div class="icon-wrap">🚚</div><div><p class="badge-title">FAST &amp; DISCREET</p><p class="badge-sub">Packed securely</p></div></div>
+    <div class="divider"></div>
+    <div class="trust-badge"><div class="icon-wrap">⚠️</div><div><p class="badge-title">FOR RESEARCH ONLY</p><p class="badge-sub">Not for human use</p></div></div>
+  </section>
+
+  <section class="shop-section" id="shop">
+    <div class="section-header">
+      <div class="section-label">Our Products</div>
+      <h2>Verified Purity &amp; Potency</h2>
+      <p class="section-sub">Explore our most popular research peptides.</p>
+    </div>
+    <div class="tabs">
+      <button class="tab active" data-filter="all">ALL</button>
+      <button class="tab" data-filter="recovery">RECOVERY</button>
+      <button class="tab" data-filter="performance">PERFORMANCE</button>
+      <button class="tab" data-filter="fatloss">FAT LOSS</button>
+      <button class="tab" data-filter="antiaging">ANTI-AGING</button>
+      <button class="tab" data-filter="other">OTHER</button>
+    </div>
+    <div class="product-grid" id="productGrid">
+      <div class="product-card" data-category="recovery">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">BPC-157</p>
+          <p class="product-meta">5mg vial</p>
+          <p class="product-price">$44.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+      <div class="product-card" data-category="recovery">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">TB-500</p>
+          <p class="product-meta">2mg vial</p>
+          <p class="product-price">$49.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+      <div class="product-card" data-category="performance">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">CJC-1295</p>
+          <p class="product-meta">2mg vial</p>
+          <p class="product-price">$54.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+      <div class="product-card" data-category="performance">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">Ipamorelin</p>
+          <p class="product-meta">5mg vial</p>
+          <p class="product-price">$59.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+      <div class="product-card" data-category="fatloss">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">Semaglutide</p>
+          <p class="product-meta">3mg vial</p>
+          <p class="product-price">$89.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+      <div class="product-card" data-category="antiaging">
+        <div class="image-container">🧬</div>
+        <div class="card-details">
+          <p class="product-name">MK-677</p>
+          <p class="product-meta">25mg oral solution</p>
+          <p class="product-price">$79.99</p>
+        </div>
+        <div class="card-action"><button class="add-to-cart">Add to Cart</button></div>
+      </div>
+    </div>
+    <div class="view-all"><button class="btn-outline">View All Products</button></div>
+  </section>
+
+  <section class="promo-banner">
+    <div class="promo-left">
+      <div class="promo-tag">Limited Time Offer</div>
+      <h2>Unlock 25% Off<br>Your First Order!</h2>
+      <p class="promo-desc">Use code RESEARCH25 at checkout. Premium quality research peptides with same-day dispatch.</p>
+      <a href="#shop" class="btn-primary">Claim Discount</a>
+    </div>
+    <div class="promo-right">
+      <div class="promo-image-placeholder">🧊</div>
+    </div>
+  </section>
+
+  <section class="why-choose">
+    <div class="section-header">
+      <div class="section-label">Our Advantage</div>
+      <h2>Why Choose Peptide Pharmacist</h2>
+      <p class="section-sub">Setting the benchmark for research-grade compound synthesis.</p>
+    </div>
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="icon-circle">🛡️</div>
+        <p class="value-title">Lab Tested</p>
+        <p class="value-desc">Every batch certified by independent US laboratories at 99%+ purity.</p>
+      </div>
+      <div class="value-card">
+        <div class="icon-circle">⭐</div>
+        <p class="value-title">High Purity</p>
+        <p class="value-desc">No fillers, no contaminants. Just pure synthesized research compounds.</p>
+      </div>
+      <div class="value-card">
+        <div class="icon-circle">💳</div>
+        <p class="value-title">Secure Ordering</p>
+        <p class="value-desc">Fully encrypted processing ensuring complete security and data privacy.</p>
+      </div>
+      <div class="value-card">
+        <div class="icon-circle">🚚</div>
+        <p class="value-title">Fast Shipping</p>
+        <p class="value-desc">Same-day dispatch with temperature-stable protective custom packaging.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section" id="testing">
+    <div class="faq-left">
+      <div class="faq-tag">FAQ</div>
+      <h2>Still need help?</h2>
+      <p class="faq-desc">Reach out to our customer support team for personalized assistance with your research needs.</p>
+      <a href="#support" class="btn-primary">Contact Us</a>
+    </div>
+    <div class="faq-right" id="faqList">
+      <div class="faq-item active">
+        <div class="faq-row">
+          <p class="faq-q">Are the peptides in a powder form?</p>
+          <span class="faq-icon">−</span>
+        </div>
+        <p class="faq-a">Yes, all peptides are supplied as lyophilized (freeze-dried) powder in pharmaceutical grade sealed glass vials for maximum stability and shelf life.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">Are peptides legal?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Peptides sold here are strictly for laboratory research purposes and are not intended for human consumption.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">What are the benefits of peptides?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Different research peptides are studied for different applications — recovery, performance, and metabolic research among others.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">How do I store peptides?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Store lyophilized peptides in a cool, dry place, and refrigerate or freeze after reconstitution per your lab protocol.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">Do you offer shipping?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Yes, we offer fast, discreet, temperature-safe shipping with same-day dispatch on qualifying orders.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">Do you provide discounts on bulk orders?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Yes, contact our support team for bulk research order pricing.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-row"><p class="faq-q">What is your return policy?</p><span class="faq-icon">+</span></div>
+        <p class="faq-a">Please reach out to our support team within the return window noted in our shipping policy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-label">Get Started</div>
+    <h2>Ready to Start Your Research?</h2>
+    <p class="cta-desc">Secure your qualified research materials with instant dispatch. Verified quality with certified independent COA analysis.</p>
+    <a href="#shop" class="btn-primary btn-lg">Shop Now</a>
+  </section>
+
+  <footer class="footer" id="support">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <div class="logo">
+          <div class="logo-glyph">💊</div>
+          <div class="brand-text">
+            <span class="brand-top">PEPTIDE</span>
+            <span class="brand-bottom">PHARMACIST</span>
+          </div>
+        </div>
+        <p class="footer-desc">Providing qualified researchers with ultra-high purity peptides. Backed by rigorous quality control and fast, secure shipping.</p>
+      </div>
+      <div class="footer-links-grid">
+        <div class="links-col">
+          <p class="col-title">Quick Links</p>
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#testing">Testing</a>
+          <a href="#">Help Center</a>
+          <a href="#testing">FAQ</a>
+          <a href="#support">Contact Us</a>
+        </div>
+        <div class="links-col">
+          <p class="col-title">Legal</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Shipping Policy</a>
+          <a href="#">Research Disclaimer</a>
+        </div>
+        <div class="links-col">
+          <p class="col-title">Support</p>
+          <a href="#">Lab Reports (COAs)</a>
+          <a href="#calculator">Dosage Guide</a>
+        </div>
+      </div>
+      <div class="footer-newsletter">
+        <p class="col-title">Join Newsletter</p>
+        <p class="newsletter-desc">Stay updated with research findings, education materials, and restocks.</p>
+        <form class="input-row" id="newsletterForm">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" aria-label="Subscribe">↗</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>Copyright © 2026 Peptide Pharmacist. All rights reserved.</p>
+      <div class="disclaimer-badge">FOR LABORATORY RESEARCH PURPOSES ONLY</div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
